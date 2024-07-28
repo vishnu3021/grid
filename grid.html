@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .ms{
+            border: 3px solid;
+        
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px ;
+            grid-template-rows: auto auto auto auto;
+            padding: 6px;
+            gap: 2px 1px;
+            /* row-gap: 20px; */
+            /* column-gap: 20px; */
+            /* column-gap: 120px; */
+            background-color: aqua;
+            
+        }
+        .cal{
+            border: 2px solid;
+            padding: 5px;
+            background-color: blueviolet;
+
+            
+            /* background-color: brown; */
+            padding: center;
+        }
+
+        .dot{
+            /* grid-column-start: 1; */
+            grid-column: 1/5;
+            grid-column-end: 5;
+            /* grid-row: 4/5; */
+            /* grid-row-start: 4; */
+            grid-row-end: 6;
+            /* grid-column-end: ; */
+            padding-left: 150px;
+
+
+        }
+        .eq{
+            /* grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: ;
+            grid-row-end: 3; */
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ms">
+        <div class="cal on">ON/OFF</div>
+        <div class="cal di">/</div>
+        <div class="cal x">X</div>
+        <div class="cal sub">-</div>
+        <div class="cal one">1</div>
+        <div class="cal two">2</div>
+        <div class="cal three">3</div>
+        <div class="cal four">4</div>
+        <div class="cal five">5</div>
+        <div class="cal six">6</div>
+        <div class="cal seven">7</div>
+        <div class="cal eight">8</div>
+        <div class="cal nine">9</div>
+        <div class="cal zero">0</div>
+        <div class="cal plus">+</div>
+        <div class="cal eq">.</div>
+        <div class="cal dot">=</div>
+
+
+</div>
+</body>
+</html>
